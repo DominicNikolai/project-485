@@ -119,7 +119,6 @@
     noise3D = createNoise3D(() => Math.random());
     scene = new Scene();
     scene.fog = new FogExp2(0x000308, 0.03);
-
     camera = new PerspectiveCamera(
       70,
       window.innerWidth / window.innerHeight,
@@ -128,7 +127,6 @@
     );
     camera.position.set(0, 12, 28);
     camera.lookAt(scene.position);
-
     renderer = new WebGLRenderer({
       canvas: document.getElementById('webglCanvas'),
       antialias: true,
