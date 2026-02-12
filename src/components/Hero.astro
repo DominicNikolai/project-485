@@ -137,7 +137,6 @@
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.toneMapping = ACESFilmicToneMapping;
     renderer.toneMappingExposure = 1.1;
-
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
@@ -145,7 +144,6 @@
     controls.maxDistance = 80;
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.3;
-
     scene.add(new AmbientLight(0x404060));
     const dirLight1 = new DirectionalLight(0xffffff, 1.5);
     dirLight1.position.set(15, 20, 10);
