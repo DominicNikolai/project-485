@@ -151,7 +151,6 @@
     const dirLight2 = new DirectionalLight(0xffaa33, 0.9);
     dirLight2.position.set(-15, -10, -15);
     scene.add(dirLight2);
-
     composer = new EffectComposer(renderer);
     composer.addPass(new RenderPass(scene, camera));
     bloomPass = new UnrealBloomPass(
