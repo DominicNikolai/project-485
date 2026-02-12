@@ -8,13 +8,13 @@ export default defineConfig({
     
   },
   //Deploy normal project
-  // base: '/project-484/',
-  // site: 'https://dominicnikolai.github.io/project-484/'
+  base: '/project-485/',
+  site: 'https://dominicnikolai.github.io/project-485/'
 
   //Deploy 20 Projects
   // base: '/20-projects-with-css/',
   // site: 'https://20essentials.github.io/20-projects-with-css/'
 
   //Localhost
-  site: 'http://localhost:4321/'
+  // site: 'http://localhost:4321/'
 });
